@@ -1,3 +1,337 @@
-#area-login {}
+/*cabeçalho*/
 
-button[type="submit"] {}
+.header {
+    background: white;
+    border: none;
+    padding: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 200px;
+    width: 100%;
+
+}
+
+li {
+    list-style-type: none;
+
+    display: inline;
+
+}
+
+ul {
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.ul2 {
+    margin-left: 70%;
+    margin-top: -35px;
+}
+
+.search-box {
+
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+
+input[type="search"] {
+    width: 500px;
+    height: 60px;
+    margin-left: 30px;
+    background-color: #E3E5E8;
+    border: 0;
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 100px;
+    color: #003E92;
+}
+
+li a:hover {
+    color: #85B6FF;
+}
+
+
+
+button[type="button"] {
+    width: 150px;
+    height: 60px;
+    background: #85B6FF;
+    color: white;
+    border-radius: 0%;
+    border: 0%;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+#nav {
+    margin-top: 30px;
+}
+
+
+
+/*MENU*/
+
+.imagem {
+    width: 1450px;
+    /* Largura da caixa */
+    height: 550px;
+    /* Altura da caixa */
+    border: 1px solid #ccc;
+    /* Borda da caixa */
+    overflow: hidden;
+    /* Esconde a parte da imagem que excede a caixa */
+    margin-left: 40px;
+
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.imagem img {
+    width: 100%;
+    /* Largura da imagem (para que se ajuste à largura da caixa) */
+    height: auto;
+    /* Altura automática (para manter a proporção da imagem) */
+    border-radius: 10px;
+}
+
+.butao1 {
+    margin-left: 45%;
+    margin-top: -10%;
+    border-radius: 10px;
+
+}
+
+button[type="butao"] {
+    width: 500px;
+    height: 100px;
+    color: white;
+    background-color: #003E92;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.caixa {
+    width: 400px;
+    /* Largura da caixa */
+    height: 100px;
+    /* Altura da caixa */
+    border: 1px solid #ccc;
+    /* Borda da caixa */
+    padding: 20px;
+    /* Espaçamento interno da caixa */
+    background-color: black;
+    /* Cor de fundo da caixa */
+    color: white;
+    /*Cor do texto da caixa */
+    border-radius: 10px;
+    /*Border da caixa */
+    margin-left: 10%;
+    margin-top: -74px;
+
+    position: absolute;
+}
+
+.butao2 {
+    margin-left: 25%;
+    margin-top: -50px;
+    position: absolute;
+    background-color: white;
+    color: black;
+
+}
+
+button[type="butao2"] {
+    height: 50px;
+}
+
+
+/*PLANOS*/
+
+.container {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+}
+
+.col {
+    background-color: #ffffff;
+    border: 1px solid #85B6FF;
+    padding: 20px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px #85B6FF;
+
+}
+
+/*PLANO 1*/
+
+h4 {
+    margin-left: 155px;
+}
+
+.doze {
+    margin-bottom: 20px;
+    color: #003E92;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+.mdoze {
+    margin-left: 242px;
+    margin-top: -48px;
+}
+
+.doismesesgratis {
+    margin-left: 115px;
+    margin-top: 20px;
+    color: #003E92;
+}
+
+.addcarrinho {
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #003E92;
+    border-radius: 5px;
+}
+
+.renovar {
+    margin-left: 110px;
+    margin-top: 5px;
+    color: gray;
+}
+
+
+.ecom {
+    margin-top: -150px;
+    color: #003E92;
+}
+
+.ecomp {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.ecompp {
+    margin-left: 150px;
+}
+
+.checkoutt {
+    margin-left: 230px;
+}
+
+.rightimage {
+    width: 40vw;
+    margin-left: 500px;
+}
+
+.vel {
+    color: #003E92;
+}
+
+.velp {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.velpf {
+    margin-left: 150px;
+    display: grid;
+}
+
+.velpff {
+    margin-top: 20px;
+    margin-left: 150px;
+    color: #003E92;
+    font-size: 18px;
+}
+
+.prot img {
+    width: 50%;
+    /* Largura da imagem (para que se ajuste à largura da caixa) */
+    height: auto;
+    /* Altura automática (para manter a proporção da imagem) */
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+button[type="butao3"] {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: 48%;
+    margin-top: -80px;
+    color: white;
+    background: #85B6FF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #003E92;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    width: calc(20% - 20px);
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .footer-section {
+        width: calc(50% - 20px);
+    }
+}
