@@ -1,0 +1,324 @@
+{
+    "doctype": "html",
+    "html": {
+        "lang": "pt-br",
+        "head": {
+            "meta": [
+                {
+                    "charset": "UTF-8"
+                },
+                {
+                    "http-equiv": "X-UA-Compatible",
+                    "content": "IE=edge"
+                },
+                {
+                    "name": "viewport",
+                    "content": "width=device-width, initial-scale=1.0"
+                }
+            ],
+            "link": [
+                {
+                    "rel": "stylesheet",
+                    "href": "style.css"
+                },
+                {
+                    "href": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css",
+                    "rel": "stylesheet",
+                    "integrity": "sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ",
+                    "crossorigin": "anonymous"
+                }
+            ],
+            "script": [
+                {
+                    "src": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js",
+                    "integrity": "sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe",
+                    "crossorigin": "anonymous"
+                }
+            ],
+            "title": "Gestão de Domínio"
+        },
+        "body": {
+            "div": [
+                {
+                    "id": "nav",
+                    "li": [
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Menu"
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Meus Domínios"
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Cadastro de Domínio"
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Sites e Hospedagens"
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Email Marketing"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "class": "ul2",
+                    "li": [
+                        {
+                            "a": {
+                                "href": "#",
+                                "content": "Fazer Login"
+                            }
+                        },
+                        {
+                            "a": {
+                                "content": "(31)9999-9999"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "class": "logo",
+                    "img": {
+                        "src": ""
+                    }
+                },
+                {
+                    "class": "search-box",
+                    "input": {
+                        "type": "search",
+                        "placeholder": "   Pesquisar"
+                    },
+                    "button": {
+                        "type": "button",
+                        "class": "btn btn",
+                        "content": "Consultar Dominio"
+                    }
+                }
+            ]
+        },
+        "main": {
+            "div": [
+                {
+                    "class": "imagem",
+                    "img": "IMG/Design sem nome (8).png",
+                    "alt": "Descrição da Imagem"
+                }
+            ]
+        },
+        "div": [
+            {
+                "class": "butao1",
+                "button": {
+                    "type": "butao",
+                    "class": "btn-btn",
+                    "content": "Consultar Dominio"
+                }
+            }
+        ]
+    },
+    "caixa": {
+        "class": "caixa",
+        "h5": "Sites + Marketing",
+        "p": "Conteúdo da caixa"
+    },
+    "butao2": {
+        "class": "butao2",
+        "button": {
+            "href": "#",
+            "type": "butao2",
+            "class": "btn-btn",
+            "content": "Experimente Grátis"
+        }
+    },
+    "container": {
+        "class": "container",
+        "row": {
+            "class": "row",
+            "col": [
+                {
+                    "h4": "Plano 1",
+                    "h1": {
+                        "class": "doze",
+                        "content": "12,99"
+                    },
+                    "p": {
+                        "class": "mdoze",
+                        "content": "/mês"
+                    },
+                    "h5": {
+                        "class": "doismesesgratis",
+                        "content": "+ 2 Meses Grátis"
+                    },
+                    "button": {
+                        "type": "addcarrinho",
+                        "class": "addcarrinho",
+                        "content": "Adicionar ao Carrinho"
+                    },
+                    "p.renovar": "R$22,99/mês ao renovar",
+                    "ul.plano1": {
+                        "li": ""
+                    }
+                },
+                {
+                    "h4": "Plano 2",
+                    "h1": {
+                        "class": "doze",
+                        "content": "17,99"
+                    },
+                    "p": {
+                        "class": "mdoze",
+                        "content": "/mês"
+                    },
+                    "h5": {
+                        "class": "doismesesgratis",
+                        "content": "+ 3 Meses Grátis"
+                    },
+                    "button": {
+                        "type": "addcarrinho",
+                        "class": "addcarrinho",
+                        "content": "Adicionar ao Carrinho"
+                    },
+                    "p.renovar": "R$44,99/mês ao renovar"
+                },
+                {
+                    "h4": "Plano 3",
+                    "h1": {
+                        "class": "doze",
+                        "content": "49,99"
+                    },
+                    "p": {
+                        "class": "mdoze",
+                        "content": "/mês"
+                    },
+                    "h5": {
+                        "class": "doismesesgratis",
+                        "content": "+ 5 Meses Grátis"
+                    },
+                    "button": {
+                        "type": "addcarrinho",
+                        "class": "addcarrinho",
+                        "content": "Adicionar ao Carrinho"
+                    },
+                    "p.renovar": "R$99,99/mês ao renovar"
+                }
+            ]
+        }
+    },
+    "checkoutecom": {
+        "class": "checkoutecom",
+        "h4.ecom": "Acelere suas vendas com o nosso checkout personalizado para ecommerce!",
+        "p.ecomp": "Oferecemos uma plataforma segura e fácil de usar, com integração rápida e suporte especializado.",
+        "p.ecompp": "Simplifique seu processo de compra e aumente suas conversões agora mesmo. Experimente gratuitamente!",
+        "img.checkoutt": {
+            "class": "checkoutt",
+            "src": "IMG/Design sem nome (11).png"
+        }
+    },
+    "velocidade": {
+        "class": "velocidade",
+        "h4.vel": "Aumente a velocidade do seu site!",
+        "p.velp1": "Torne seu site mais rápido com nossos serviços especializados em otimização de velocidade de carregamento.",
+        "p.velp2": "Se você quer melhorar a experiência do usuário, aumentar o tempo de permanência em seu site e, por consequência, gerar mais conversões, nós podemos ajudar.",
+        "p.velp3": "Nossa equipe é formada por especialistas em desenvolvimento web e otimização de desempenho, com anos de experiência no mercado.",
+        "p.velp4": "Oferecemos uma variedade de serviços para atender às necessidades específicas de seu site, incluindo otimização de imagens, minificação de códigos, melhoria de cache, entre outros.",
+        "p.velpf": "Entre em contato conosco para saber mais sobre como podemos ajudar a melhorar a performance de seu site.",
+        "h4.velpff": "Juntos, podemos fazer seu site mais rápido e mais eficiente, proporcionando a melhor experiência para seus usuários.",
+        "img.rightimage": {
+            "src": "animação.svg",
+            "class": "rightimage",
+            "alt": "animaçãovel"
+        }
+    },
+    "prot": {
+        "class": "prot",
+        "img": {
+            "src": "IMG/Recursos avançados.png"
+        }
+    },
+    "butao3": {
+        "type": "butao3",
+        "a": "Proteger Meu Site"
+    },
+    "footer": {
+        "div.footer-container": {
+            "div.footer-section": [
+                {
+                    "h3": "Políticas e Privacidade",
+                    "ul": {
+                        "li": [
+                            {
+                                "a": "Políticas"
+                            },
+                            {
+                                "a": "Privacidade"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "h3": "Redes Sociais",
+                    "ul": {
+                        "li": [
+                            {
+                                "a": "Instagram"
+                            },
+                            {
+                                "a": "Facebook"
+                            },
+                            {
+                                "a": "Twitter"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "h3": "Formas de Pagamento",
+                    "ul": {
+                        "li": [
+                            "Cartão de crédito",
+                            "Boleto bancário",
+                            "Transferência bancária"
+                        ]
+                    }
+                },
+                {
+                    "h3": "Contato",
+                    "ul": {
+                        "li": [
+                            "E-mail: contato@exemplo.com",
+                            "Telefone: (11) 1234-5678",
+                            "Endereço: Rua Exemplo, 123"
+                        ]
+                    }
+                },
+                {
+                    "h3": "Ajuda",
+                    "ul": {
+                        "li": [
+                            {
+                                "a": "Perguntas Frequentes"
+                            },
+                            {
+                                "a": "Suporte"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
