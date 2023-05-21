@@ -231,10 +231,10 @@
     "velocidade": {
         "class": "velocidade",
         "h4.vel": "Aumente a velocidade do seu site!",
-        "p.velp": "Torne seu site mais rápido com nossos serviços especializados em otimização de velocidade de carregamento.",
-        "p.velp": "Se você quer melhorar a experiência do usuário, aumentar o tempo de permanência em seu site e, por consequência, gerar mais conversões, nós podemos ajudar.",
-        "p.velp": "Nossa equipe é formada por especialistas em desenvolvimento web e otimização de desempenho, com anos de experiência no mercado.",
-        "p.velp": "Oferecemos uma variedade de serviços para atender às necessidades específicas de seu site, incluindo otimização de imagens, minificação de códigos, melhoria de cache, entre outros.",
+        "p.velp1": "Torne seu site mais rápido com nossos serviços especializados em otimização de velocidade de carregamento.",
+        "p.velp2": "Se você quer melhorar a experiência do usuário, aumentar o tempo de permanência em seu site e, por consequência, gerar mais conversões, nós podemos ajudar.",
+        "p.velp3": "Nossa equipe é formada por especialistas em desenvolvimento web e otimização de desempenho, com anos de experiência no mercado.",
+        "p.velp4": "Oferecemos uma variedade de serviços para atender às necessidades específicas de seu site, incluindo otimização de imagens, minificação de códigos, melhoria de cache, entre outros.",
         "p.velpf": "Entre em contato conosco para saber mais sobre como podemos ajudar a melhorar a performance de seu site.",
         "h4.velpff": "Juntos, podemos fazer seu site mais rápido e mais eficiente, proporcionando a melhor experiência para seus usuários.",
         "img.rightimage": {

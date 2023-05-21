@@ -1,5 +1,75 @@
 /*cabeçalho*/
 
+/* Cabeçalho */
+.header {
+    background: white;
+    padding: 0;
+    height: 200px;
+}
+
+ul {
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 10%;
+    /* Alteração para centralizar horizontalmente em telas maiores */
+}
+
+.ul2 {
+    margin-left: 70%;
+    margin-top: -35px;
+}
+
+.search-box {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+input[type="search"] {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 0;
+    /* Alteração para ocupar toda a largura disponível */
+}
+
+li {
+    display: block;
+    margin-bottom: 10px;
+    /* Alteração para adicionar espaço entre os itens da lista */
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #003E92;
+}
+
+li a:hover {
+    color: #85B6FF;
+}
+
+button[type="button"] {
+    width: 150px;
+    height: 60px;
+    background: #85B6FF;
+    color: white;
+    border-radius: 0%;
+    border: 0%;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+#nav {
+    margin-top: 30px;
+}
+
+/* Restante do seu código CSS aqui */
+
+
+
+
+
 .header {
     background: white;
     border: none;
@@ -323,15 +393,101 @@ footer {
 
 .footer-section ul li {
     margin-bottom: 5px;
+    display: block;
 }
 
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
+
 }
 
-@media (max-width: 767px) {
-    .footer-section {
-        width: calc(50% - 20px);
+@media only screen and (max-width: 600px) {
+
+    /* Cabeçalho */
+    .header {
+        height: 150px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Menu */
+    .imagem {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .butao1 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Planos */
+    .container {
+        margin-top: 100px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .col {
+        height: auto;
+    }
+}
+
+/* Consulta de mídia para dispositivos menores */
+@media only screen and (max-width: 400px) {
+
+    /* Cabeçalho */
+    .header {
+        height: 100px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    /* Planos */
+    .container {
+        margin-top: 50px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+/* Consulta de mídia para dispositivos menores */
+@media only screen and (max-width: 320px) {
+
+    /* Cabeçalho */
+    .header {
+        height: 80px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    /* Planos */
+    .container {
+        margin-top: 30px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
     }
 }
