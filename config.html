@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <title>Dominios</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="text-center d-block m-3">
+                <h1 class="mb-3 mt-4">CONFIGURAÇÃOES</h1>
+                <img id="imgPerfil" src="Albert.jpg" alt="mdo" width="150" height="150" class="rounded-circle">
+                <label class="d-block text-primary mt-2 bi-cursor" for="profile-pic">Alterar foto</label>
+                <input class="d-none" type="file" id="profile-pic" name="profile-pic" accept="image/*">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label mb-0" for="email">Email:</label>
+                <input class="form-control" type="email" id="mudaemail" name="email">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="exampleInputPassword1" class="form-label mb-0">Senha</label>
+                <input type="text" class="form-control" id="mudasenha">
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="text" class="form-control" id="mudatelefone" name="telefone" pattern="[0-9]+" title="Digite apenas números">
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="alterar()" id="alterar">Alterar</button>
+
+            
+        </div>
+
+        <script src="perfil.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body> 
+</header>
